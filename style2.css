@@ -77,3 +77,15 @@
   display: none;
  
 }
+.service-section-wrapper{
+  position: absolute;
+  left: 0;
+  right: 0;
+  
+
+  /* background: #ffffff; */
+}
+.service-item:hover .service-section-wrapper{
+  display: flex !important;
+  
+}
