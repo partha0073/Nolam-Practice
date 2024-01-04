@@ -18,7 +18,7 @@ window.addEventListener('scroll', function() {
         if (!startTime) startTime = timestamp;
         var progress = timestamp - startTime;
 
-        var currentCount = Math.floor((progress / duration) * countTo) + startCount;
+        var currentCount = Math.floor((progress / duration -1) * countTo) + startCount;
         counter.textContent = currentCount;
 
         if (progress < duration) {

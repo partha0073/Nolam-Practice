@@ -8,7 +8,12 @@
 .service-section-wrapper {
   box-shadow: #000;
   background: #fff;
+  text-transform: none;
 
+}
+.service-icon{
+  display: inline-block;
+  margin-right: 10px;
 }
 .services-bar {
   /* width: 258px; */
@@ -46,6 +51,7 @@
   text-align: center;
   margin-top: 30px;
   cursor: pointer;
+  font-family:'Ubuntu',sans-serif;
 }
 .sub-services h1 {
   color: #000;
@@ -62,7 +68,8 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 226.667% */
+  line-height: 30px; /* 226.667% */
+  
 }
 
 .freignt-insurance-sub-section {
@@ -81,11 +88,13 @@
   position: absolute;
   left: 0;
   right: 0;
+  display: none;
   
 
   /* background: #ffffff; */
 }
 .service-item:hover .service-section-wrapper{
-  display: flex !important;
+  
+  display: block;
   
 }
