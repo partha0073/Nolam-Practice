@@ -160,12 +160,24 @@ nav {
   cursor: pointer;
   border: none;
 }
+.card .icon{
+  font-size: 30px;
+  color: #000;
+  display: none;
+}
+
 .card:hover{
     transform: scale(1.02);
     transition: 0.6s;
     z-index: 2;
     background: #FFF;
     box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.06);
+
+
+}
+.card:hover .icon{
+ display: block;
+ 
 
 
 }
