@@ -157,9 +157,12 @@ nav {
   background: #fff;
   box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.06);
   color:#000;
-  padding: 10px;
+  padding: 20px;
   cursor: pointer;
   border: none;
+}
+.card-box{
+  display: flex;
 }
 .card .icon{
   font-size: 30px;
